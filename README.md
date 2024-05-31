@@ -21,6 +21,8 @@ v.front()第一个元素   v.back()最后一个元素  v.swap////vector<int>(v).
 关于map容器
 map<T,T>m;
 m.insert(make_pair(1,10));//插入数值
+multimap<T,T>::iterator pos=m.find(key)返回迭代器
+int count=m.count(key);返回整型
 
 
 
